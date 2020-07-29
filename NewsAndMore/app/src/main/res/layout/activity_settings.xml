@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings.Settings"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/setting_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewChangeLanguage"
+        android:layout_width="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"
+        android:padding="12dp"
+        android:onClick="onLanguageChangeClick"
+        android:text="Change Language"/>
+
+
+</LinearLayout>

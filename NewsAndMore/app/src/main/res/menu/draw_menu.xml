@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:openDrawer="start">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="News">
+            <menu>
+                <item
+                    android:id="@+id/nav_usa"
+                    android:icon="@drawable/ic_one"
+                    android:title="USA" />
+                <item
+                    android:id="@+id/nav_saudiarabia"
+                    android:icon="@drawable/ic_two"
+                    android:title="Saudi Arabia"/>
+                <item
+                    android:id="@+id/nav_uae"
+                    android:icon="@drawable/ic_three"
+                    android:title="UAE"/>
+                <item
+                    android:id="@+id/nav_egypt"
+                    android:icon="@drawable/ic_four"
+                    android:title="Egypt"/>
+                <item
+                    android:id="@+id/nav_unitedKingdom"
+                    android:icon="@drawable/ic_five"
+                    android:title="United Kingdom"/>
+            </menu>
+        </item>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_about"
+                android:title="About Us"/>
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email"
+                android:title="Contact Us"/>
+        </menu>
+    </item>
+
+    </group>
+
+
+</menu>

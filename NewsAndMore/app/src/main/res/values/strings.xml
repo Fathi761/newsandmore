@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NewsAndMore</string>
+
+    <string name="facebook_app_id">791970871336940</string>
+    <string name="fb_login_protocol_scheme">fb791970871336940</string>
+
+    <string name="text_info">Light Theme</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="sync_pref">Sync</string>
+    <string name="sync_pref_summary">
+        Get all news, videos, etc on all your devices.
+    </string>
+
+    <string name="pref_syncConnectionType">Sync Conncection Type</string>
+    <string name="pref_syncConnectionType_dialog_title">Perform Sync Using</string>
+    <string name="pref_syncConnectionType_default_value">Wifi</string>
+    <string name="pref_syncConnectionType_summary">Wifi</string>
+
+    <string-array name="pref_syncConnectionType_entries">
+        <item>Wifi</item>
+        <item>Mobile Data</item>
+        <item>Wifi/Mobile Data</item>
+    </string-array>
+
+    <string-array name="pref_syncConnectionType_values">
+        <item>Wifi</item>
+        <item>Mobile</item>
+        <item>Wifi_Mobile</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>Dark Mode</item>
+        <item>Light Mode</item>
+    </string-array>
+
+</resources>
